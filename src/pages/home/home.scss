@@ -1,3 +1,25 @@
 page-home {
+    .header {
+        .toolbar-background {
+            background: rgba(0,0,0, 0.65);
+        }
+        padding: 10px;
+    }
+    .content {
+        background: url(../assets/background.jpg) center center;
+        background-size: cover;
+        color: #fff;
+    }
+
+
+    .home-row {
+        display: flex;
+        box-sizing: border-box;
+        height: 33%;
+        .home-col {
+            box-sizing: border-box;
+            width: 50%;
+        }
+    }
 
 }
